@@ -4,28 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Api Tabela Fipe</title>
 </head>
 
 <body>
     <main>
         <form action="" id="form">
+
             <label for=""> Marca: </label>
-            <input type="text" name="brand" id="brand" onchange="BuscarFipe()">
+            <select name="" id="brands">
+                <option selected> Open this select menu</option>
+                <option value="80">Honda</option>
+                <option value="101">Yamaha</option>
+                <option value="67">BMW</option>
+            </select>
+
+            <!-- <input type="text" name="brand" id="brand" onchange="BuscarFipe()"> -->
 
             <label for=""> Modelo: </label>
-            <input type="text" name="model" id="model">
-
-            <label for=""> Valor: </label>
-            <input type="text" name="value" id="value">
-
-            <label for=""> Combustivel: </label>
-            <input type="text" name="fuel" id="fuel">
+            <select name="" id="models">
+                <option selected> Open this select menu</option>
+                <option value="9265">ADV- 150</option>
+                <option value="3067">Fazer</option>
+                <option value="7467">BIZ 110i</option>
+                <option value="4805">F 800 GS 798cc</option>
+            </select>
 
             <label for=""> Ano: </label>
-            <input type="text" name="year_factory" id="year_factory">
+            <select name="" id="years">
+                <option selected> Open this select menu</option>
+                <option value="2024-1">2024</option>
+                <option value="2023-1">2023</option>
+                <option value="2022-1">2022</option>
+                
+                <option value="2018-1">2018</option>
+                <option value="2017-1">2017</option>
+                
+                <option value="2009-1">2009</option>
+                <option value="2008-1">2008</option>
+                <option value="2007-1">2007</option>
+                <option value="2006-1">2006</option>
+                <option value="2005-1">2005</option>
+            </select>
 
+            <button type="button" onclick="BuscarFipe()"></button>
+            <div>
+                <label for=""> Marca: </label>
+                <input type="text" name="brand" id="brand">
+
+                <label for=""> Modelo: </label>
+                <input type="text" name="model" id="model">
+
+                <label for=""> Valor: </label>
+                <input type="text" name="value" id="value">
+
+                <label for=""> Combustivel: </label>
+                <input type="text" name="fuel" id="fuel">
+
+                <label for=""> Ano: </label>
+                <input type="text" name="year_factory" id="year_factory">
+            </div>
         </form>
+
+
+
+
+
+
+
+
+
+
     </main>
 </body>
 <script src="main.js"></script>
