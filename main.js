@@ -16,6 +16,5 @@ async function BuscarFipe() {
         document.getElementById('value').value = response.Valor
         document.getElementById('fuel').value = response.Combustivel
         document.getElementById('year_factory').value = response.AnoModelo
-
     })
 }
