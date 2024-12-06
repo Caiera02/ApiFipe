@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buscar CNPJ</title>
+</head>
+
+<body>
+    <div id="title">
+        <label for="CNPj">CNPJ</label>
+        <input type="text" id="CNPJ" onchange="BuscarCNPJ()">
+    </div>
+    <form action="" class="box">
+
+        <label for="name" id="razao">Razão Social</label>
+        <input style="width: 47%;  border: 1px solid #ccc;border-radius: 5px; margin-top: 5%; padding: 5px;" type="text"
+            id="name" readonly>
+
+        <label for="founded" id="fundacao">Fundação</label>
+        <input style="width: 20%;  border: 1px solid #ccc;border-radius: 5px; padding: 5px;" type="text" id="founded"
+            readonly>
+        <div class="container">
+
+
+
+            <label for="membro1">Nome</label>
+            <input type="text" id="name0" readonly>
+
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo0">
+
+            <label for="membro2">Nome</label>
+            <input type="text" id="name1" readonly>
+
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo1" readonly>
+
+            <label for="membro2">Nome</label>
+            <input type="text" id="name2" readonly>
+
+            <label for="cargo">Cargo</label>
+            <input type="text" id="cargo2" readonly>
+
+            <textarea name="" id="address"> </textarea>
+
+
+        </div>
+
+    </form>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

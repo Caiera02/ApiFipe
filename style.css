@@ -1,0 +1,54 @@
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.box {
+    border: 2px solid #000; /* Cria a borda */
+    /*padding-top: 3%; /* Espaçamento interno */
+    padding-left: 2%;
+    padding-bottom: 20%; 
+    border-radius: 10px; /* Arredonda os cantos */
+    width: 100vh; /* Largura da caixa */
+    height: 200px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px; /* Espaçamento entre os elementos */
+    /*border: 2px solid #ccc; /* Borda do quadrado */
+    padding: 20px; /* Espaçamento interno */
+    /*max-width: 500px; /* Largura máxima */
+    margin: auto; /* Centralizar na página */
+  }
+
+.container label {
+    /* align-self: center; */
+    margin-left: 5%;
+    margin-bottom: 10%;
+    align-self: center; /* Centralizar verticalmente o texto do rótulo */
+  }
+
+ .container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.container input {
+   width: 100%; /* Campo ocupa a largura total */
+   margin-bottom: 15px; /* Espaço entre os campos */
+   padding: 5px; /* Espaçamento interno dos campos */
+   border: 1px solid #ccc; /* Borda dos campos */
+   border-radius: 5px; /* Arredonda os cantos dos campos */
+} 
+
+input[readonly] {
+    background-color: #e9ecef; /* Fundo diferente para campos somente leitura */
+  }
