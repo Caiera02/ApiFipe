@@ -14,7 +14,7 @@ async function BuscarFipe() {
         const url = `https://parallelum.com.br/fipe/api/v1/motos/marcas/${selectedBrand}/modelos/${selecteModel}/anos/${selecteYear}`;
 
         await fetch(url).then((response) => {
-            // Transforma JSON em OBJ
+            // Transforma JSON em  OBJ
             return response.json();
 
         }).then((response) => {
